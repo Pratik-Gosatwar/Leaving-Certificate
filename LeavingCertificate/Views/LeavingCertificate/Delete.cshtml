@@ -1,0 +1,144 @@
+﻿@model LeavingCertificate.Models.LogStudentData
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>LogStudentData</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.FullName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.FullName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MotherName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MotherName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MotherTounge)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MotherTounge)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Nationality)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Nationality)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Caste)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Caste)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Religion)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Religion)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOfBirth)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateOfBirth)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.LastSchool)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.LastSchool)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Standard)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Standard)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Progress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Progress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Conduct)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Conduct)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOfLeaving)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateOfLeaving)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CurrentStandard)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CurrentStandard)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.ReasonOfLeaving)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ReasonOfLeaving)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Remarks)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Remarks)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

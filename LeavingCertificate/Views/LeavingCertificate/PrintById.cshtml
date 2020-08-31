@@ -1,0 +1,96 @@
+﻿@model LeavingCertificate.Models.LogStudentData
+
+@{
+    ViewBag.Title = "Print";
+}
+
+
+<head>
+    <style>
+        #Div1 {
+            border-spacing: 40px;
+            border-collapse: separate;
+            border: 1px solid black;
+            padding:10px 
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+
+        <img src="~/images/pngfuel.com (2).png" style="position: relative;display:block;left: 43%; transform: translate(-50%);" />
+        <h1 style="text-align:center;color:cadetblue;"><b><u>Jaycees Convent</u></b></h1>
+        <h6 style="text-align:center;color:cadetblue">J.M Patel road, Bhandara-440009(India)</h6>
+
+        <h4 style="text-align:center;color:cadetblue"><u>School Leaving Certificate</u></h4>
+    </div>
+    <div id="Div1">
+        <table style="font-size:15px;font-weight:bold" class="table table-bordered  table-striped">
+            <tr>
+                <td>Full Name : @Model.FullName</td>
+            </tr>
+            <tr>
+                <td>Mother Name : @Model.MotherName</td>
+            </tr>
+            <tr>
+                <td>Mother Tongue : @Model.MotherTounge </td>
+            </tr>
+            <tr>
+                <td>Nationality : @Model.Nationality</td>
+            </tr>
+            <tr>
+                <td>Caste : @Model.Caste</td>
+            </tr>
+            <tr>
+                <td>Religion : @Model.Religion</td>
+            </tr>
+            <tr>
+                <td>Date Of Birth : @Model.DateOfBirth</td>
+            </tr>
+            <tr>
+                <td>Last School : @Model.LastSchool</td>
+            </tr>
+            <tr>
+                <td>Standard : @Model.Standard</td>
+            </tr>
+            <tr>
+                <td>Progress : @Model.Progress</td>
+            </tr>
+            <tr>
+                <td>Conduct : @Model.Conduct</td>
+            </tr>
+            <tr>
+                <td>Date Of Leaving : @Model.DateOfLeaving</td>
+            </tr>
+            <tr>
+                <td>Current Standard : @Model.CurrentStandard</td>
+            </tr>
+            <tr>
+                <td>Reason Of Leaving : @Model.ReasonOfLeaving</td>
+            </tr>
+            <tr>
+                <td>Remarks : @Model.Remarks</td>
+            </tr>
+        </table>
+        <br />
+
+
+    </div>
+    <br />
+
+    <label>Date:_______________</label>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+
+    <pre>
+    Teacher Signature                                                         Principal Signature & Stamp
+</pre>
+
+</body>
+

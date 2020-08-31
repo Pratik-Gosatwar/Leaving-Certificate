@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1209
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeavingCertificate", "LeavingCertificate\LeavingCertificate.csproj", "{F0CDC3C4-915A-4280-A647-95A7082E5EBD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F0CDC3C4-915A-4280-A647-95A7082E5EBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0CDC3C4-915A-4280-A647-95A7082E5EBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0CDC3C4-915A-4280-A647-95A7082E5EBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0CDC3C4-915A-4280-A647-95A7082E5EBD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F59B69D5-CEF9-4742-BC18-DD83FA4A7C87}
+	EndGlobalSection
+EndGlobal
